@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "Debug switchcasewhile",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}\\${fileBasenameNoExtension}.exe",
+
+            "cwd": "${workspaceFolder}",
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:\\MinGW\\bin\\gdb.exe",
+            "externalConsole": true,
+            "preLaunchTask": "C/C++: gcc.exe 建置使用中檔案"
+        }
+    ]
+}
